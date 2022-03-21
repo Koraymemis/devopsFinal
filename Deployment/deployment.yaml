@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: itm-registry.opthemateknoloji.com:5000/sample-app:$(Build.BuildId)v
+        image: registry.k0ray.local:5000/sample-app:$(Build.BuildId)v
         env:
           - name: PORT
             value: "80"
