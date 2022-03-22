@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sample-app
-  namespace: nonprod
+  namespace: 
 spec:
   selector:
     matchLabels:
